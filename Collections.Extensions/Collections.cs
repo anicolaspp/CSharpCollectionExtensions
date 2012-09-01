@@ -22,7 +22,8 @@ namespace Nikos.Extensions.Collections
 
             return new List<T[]> { result[0].ToArray(), result[1].ToArray() };
         }
-        private static T[] Merge<T>(T[] x, T[] y, Comparison<T> comparison)
+       
+		private static T[] Merge<T>(T[] x, T[] y, Comparison<T> comparison)
         {
             int i = 0, j = 0;
             var result = new List<T>();
@@ -36,7 +37,8 @@ namespace Nikos.Extensions.Collections
             }
             return result.ToArray();
         }
-        private static int[] Compute_Prefix_Function<T>(T[] data, Comparison<T> comparison)
+        
+		private static int[] Compute_Prefix_Function<T>(T[] data, Comparison<T> comparison)
         {
             int m = data.Length;
             int[] pi = new int[m];
@@ -55,6 +57,7 @@ namespace Nikos.Extensions.Collections
             return pi;
         }
 
+		// Trying to reset the enumerator
         private static bool TryReset(IEnumerator source)
         {
             try
@@ -67,7 +70,8 @@ namespace Nikos.Extensions.Collections
                 return false;
             }
         }
-        private static void _QuickSort<T>(T[] data, Comparison<T> comparison, int desde, int hasta)
+     
+		private static void _QuickSort<T>(T[] data, Comparison<T> comparison, int desde, int hasta)
         {
             int i = desde, j = hasta;
             var med = data[(i + j) / 2];
@@ -88,7 +92,8 @@ namespace Nikos.Extensions.Collections
             if (i < hasta) _QuickSort(data, comparison, i, hasta);
             if (desde < j) _QuickSort(data, comparison, desde, j);
         }
-        private static T[] _MergeSort<T>(T[] data, Comparison<T> comparison, int desde, int hasta)
+        
+		private static T[] _MergeSort<T>(T[] data, Comparison<T> comparison, int desde, int hasta)
         {
             if (data.Length < 2)
                 return data;
@@ -102,7 +107,8 @@ namespace Nikos.Extensions.Collections
 
             return Merge(x, y, comparison);
         }
-        private static int[] _KMP<T>(T[] data, T[] frag, Comparison<T> comparison)
+        
+		private static int[] _KMP<T>(T[] data, T[] frag, Comparison<T> comparison)
         {
             var result = new List<int>();
 
