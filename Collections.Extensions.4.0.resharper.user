@@ -1,0 +1,304 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7015CE3A-327F-43C0-93C4-067603C0C772/f:Program.cs" caret="764" scrollPosition="0|7" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="15722" scrollPosition="0|364" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="10928" scrollPosition="4|79" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="4531" scrollPosition="0|34" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="1944" scrollPosition="0|4" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="3653" scrollPosition="0|25" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="8664" scrollPosition="0|43" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="13826" scrollPosition="0|80" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="5578" scrollPosition="0|27" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="6029" scrollPosition="0|27" />
+      <File id="7015CE3A-327F-43C0-93C4-067603C0C772/f:Program.cs" caret="129" scrollPosition="0|0" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="152" scrollPosition="0|0" />
+      <File id="7015CE3A-327F-43C0-93C4-067603C0C772/f:Program.cs" caret="620" scrollPosition="0|4" />
+      <File id="7015CE3A-327F-43C0-93C4-067603C0C772/f:Program.cs" caret="326" scrollPosition="0|3" />
+      <File id="7015CE3A-327F-43C0-93C4-067603C0C772/f:Program.cs" caret="576" scrollPosition="0|7" />
+      <File id="7015CE3A-327F-43C0-93C4-067603C0C772/f:Program.cs" caret="764" scrollPosition="0|4" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="3387" scrollPosition="0|25" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="13187" scrollPosition="0|78" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="3653" scrollPosition="0|14" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="299" scrollPosition="0|9" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="4519" scrollPosition="0|9" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="13898" scrollPosition="0|50" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="11164" scrollPosition="0|33" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="14606" scrollPosition="0|42" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="14606" scrollPosition="0|45" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="6405" scrollPosition="0|11" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="14906" scrollPosition="0|12" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="14530" scrollPosition="0|51" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="15703" scrollPosition="0|61" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="14828" scrollPosition="0|56" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="14828" scrollPosition="0|56" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="14828" scrollPosition="0|56" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="static" priority="40" />
+      <Item value="public" priority="37" />
+      <Item value="IEnumerable" priority="38" />
+      <Item value="TimeZoneInfo" priority="0" />
+      <Item value="this" priority="31" />
+      <Item value="IEnumerator" priority="4" />
+      <Item value="T" priority="88" />
+      <Item value="while" priority="10" />
+      <Item value="source" priority="56" />
+      <Item value="MoveNext" priority="1" />
+      <Item value="yield return" priority="5" />
+      <Item value="Current" priority="1" />
+      <Item value="void" priority="5" />
+      <Item value="Stack" priority="0" />
+      <Item value="foreach" priority="6" />
+      <Item value="dest" priority="2" />
+      <Item value="Pop" priority="0" />
+      <Item value="Push" priority="0" />
+      <Item value="item" priority="3" />
+      <Item value="Queue" priority="2" />
+      <Item value="Enqueue" priority="2" />
+      <Item value="Type" priority="11" />
+      <Item value="typeof" priority="2" />
+      <Item value="return" priority="45" />
+      <Item value="Nullable" priority="0" />
+      <Item value="null" priority="7" />
+      <Item value="types" priority="7" />
+      <Item value="new" priority="54" />
+      <Item value="Queue&lt;Type&gt;" priority="0" />
+      <Item value="GetType" priority="1" />
+      <Item value="Count" priority="7" />
+      <Item value="var" priority="22" />
+      <Item value="Dequeue" priority="0" />
+      <Item value="current" priority="3" />
+      <Item value="BaseType" priority="0" />
+      <Item value="AddRange" priority="0" />
+      <Item value="GetInterfaces" priority="0" />
+      <Item value="int" priority="54" />
+      <Item value="Random" priority="1" />
+      <Item value="GetHashCode" priority="5" />
+      <Item value="a" priority="8" />
+      <Item value="for" priority="14" />
+      <Item value="pasos" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="m" priority="5" />
+      <Item value="Next" priority="1" />
+      <Item value="if" priority="38" />
+      <Item value="Direccion" priority="4" />
+      <Item value="r" priority="1" />
+      <Item value="Arriba" priority="2" />
+      <Item value="Derecha" priority="0" />
+      <Item value="switch" priority="2" />
+      <Item value="break" priority="1" />
+      <Item value="direccion" priority="0" />
+      <Item value="List" priority="11" />
+      <Item value="GetEnumerator" priority="1" />
+      <Item value="VARIABLE" priority="0" />
+      <Item value="ToIEnumerable" priority="1" />
+      <Item value="ToList" priority="0" />
+      <Item value="ToArray" priority="30" />
+      <Item value="Length" priority="26" />
+      <Item value="Func" priority="5" />
+      <Item value="func" priority="15" />
+      <Item value="QuickSort" priority="9" />
+      <Item value="data" priority="56" />
+      <Item value="inicio" priority="1" />
+      <Item value="final" priority="3" />
+      <Item value="i" priority="36" />
+      <Item value="do" priority="0" />
+      <Item value="med" priority="8" />
+      <Item value="temp" priority="0" />
+      <Item value="_QuickSort" priority="3" />
+      <Item value="hasta" priority="9" />
+      <Item value="desde" priority="8" />
+      <Item value="try" priority="2" />
+      <Item value="NullReferenceException" priority="2" />
+      <Item value="IComparer" priority="1" />
+      <Item value="comparer" priority="13" />
+      <Item value="from" priority="0" />
+      <Item value="where" priority="1" />
+      <Item value="Where" priority="1" />
+      <Item value="Compare" priority="2" />
+      <Item value="out" priority="1" />
+      <Item value="Comparison" priority="11" />
+      <Item value="bool" priority="8" />
+      <Item value="false" priority="1" />
+      <Item value="finally" priority="0" />
+      <Item value="fl" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="comparison" priority="30" />
+      <Item value="Image" priority="1" />
+      <Item value="image" priority="14" />
+      <Item value="Bitmap" priority="5" />
+      <Item value="bmp" priority="11" />
+      <Item value="LockBits" priority="0" />
+      <Item value="Rectangle" priority="1" />
+      <Item value="Width" priority="8" />
+      <Item value="Height" priority="8" />
+      <Item value="ImageLockMode" priority="0" />
+      <Item value="ReadWrite" priority="0" />
+      <Item value="PixelFormat" priority="0" />
+      <Item value="Format32bppArgb" priority="0" />
+      <Item value="pData" priority="1" />
+      <Item value="byte" priority="2" />
+      <Item value="Copy" priority="0" />
+      <Item value="Scan0" priority="0" />
+      <Item value="const" priority="1" />
+      <Item value="Graphics" priority="2" />
+      <Item value="FromImage" priority="0" />
+      <Item value="ancho" priority="1" />
+      <Item value="alto" priority="1" />
+      <Item value="object" priority="13" />
+      <Item value="Point" priority="2" />
+      <Item value="graphics" priority="2" />
+      <Item value="DrawImageUnscaled" priority="0" />
+      <Item value="GraphicsUnit" priority="0" />
+      <Item value="Pixel" priority="0" />
+      <Item value="internal" priority="0" />
+      <Item value="CustomImage" priority="0" />
+      <Item value="Dispose" priority="0" />
+      <Item value="Palette" priority="0" />
+      <Item value="Color" priority="1" />
+      <Item value="Empty" priority="0" />
+      <Item value="Clear" priority="2" />
+      <Item value="backColor" priority="0" />
+      <Item value="namespace" priority="3" />
+      <Item value="Nikos" priority="1" />
+      <Item value="class" priority="3" />
+      <Item value="using" priority="3" />
+      <Item value="Reset" priority="1" />
+      <Item value="PrimaryInteropAssemblyAttribute" priority="0" />
+      <Item value="private" priority="5" />
+      <Item value="TryReset" priority="2" />
+      <Item value="Enumerable" priority="0" />
+      <Item value="STATSTG" priority="0" />
+      <Item value="GroupBy" priority="0" />
+      <Item value="First" priority="0" />
+      <Item value="Intersect" priority="1" />
+      <Item value="IEqualityComparer" priority="0" />
+      <Item value="SelectMany" priority="0" />
+      <Item value="ToDictionary" priority="2" />
+      <Item value="KeyNotFoundException" priority="0" />
+      <Item value="IDictionary" priority="1" />
+      <Item value="dictionary" priority="2" />
+      <Item value="ToString" priority="8" />
+      <Item value="string" priority="11" />
+      <Item value="ICollection" priority="1" />
+      <Item value="params" priority="3" />
+      <Item value="items" priority="5" />
+      <Item value="result" priority="26" />
+      <Item value="Remove" priority="5" />
+      <Item value="Inicio" priority="1" />
+      <Item value="Final" priority="1" />
+      <Item value="text" priority="0" />
+      <Item value="fragment" priority="1" />
+      <Item value="fuente" priority="0" />
+      <Item value="KMP" priority="3" />
+      <Item value="frag" priority="3" />
+      <Item value="_KMP" priority="0" />
+      <Item value="IComparable" priority="12" />
+      <Item value="ReturnValue" priority="3" />
+      <Item value="CompareTo" priority="12" />
+      <Item value="K" priority="3" />
+      <Item value="obj" priority="3" />
+      <Item value="t" priority="6" />
+      <Item value="func_1" priority="0" />
+      <Item value="func_2" priority="0" />
+      <Item value="IList" priority="0" />
+      <Item value="MergeSort" priority="0" />
+      <Item value="throw" priority="3" />
+      <Item value="ArgumentNullException" priority="0" />
+      <Item value="_MergeSort" priority="4" />
+      <Item value="else" priority="5" />
+      <Item value="Math" priority="0" />
+      <Item value="Abs" priority="0" />
+      <Item value="List&lt;T&gt;" priority="3" />
+      <Item value="index" priority="1" />
+      <Item value="Add" priority="8" />
+      <Item value="List&lt;T[]&gt;" priority="0" />
+      <Item value="Split" priority="1" />
+      <Item value="list" priority="2" />
+      <Item value="y" priority="0" />
+      <Item value="indexs" priority="3" />
+      <Item value="PlatformID" priority="0" />
+      <Item value="RemoveAt" priority="0" />
+      <Item value="nguid" priority="0" />
+      <Item value="n" priority="0" />
+      <Item value="q" priority="9" />
+      <Item value="pi" priority="5" />
+      <Item value="k" priority="7" />
+      <Item value="Nikos.Extensions.Collections" priority="0" />
+      <Item value="patron" priority="8" />
+      <Item value="txt" priority="1" />
+      <Item value="cw" priority="4" />
+      <Item value="Action" priority="3" />
+      <Item value="action" priority="1" />
+      <Item value="System" priority="0" />
+      <Item value="Threading" priority="0" />
+      <Item value="Parallel" priority="4" />
+      <Item value="ForEach" priority="0" />
+      <Item value="Invoke" priority="1" />
+      <Item value="delegate" priority="2" />
+      <Item value="ParallelEnumerable" priority="0" />
+      <Item value="Task" priority="1" />
+      <Item value="Action&lt;object&gt;" priority="2" />
+      <Item value="Create" priority="0" />
+      <Item value="TaskCreationOptions" priority="1" />
+      <Item value="TaskManager" priority="2" />
+      <Item value="manager" priority="3" />
+      <Item value="None" priority="0" />
+      <Item value="ParalleleForEach" priority="0" />
+      <Item value="char" priority="7" />
+      <Item value="Program" priority="0" />
+      <Item value="A" priority="1" />
+      <Item value="Nikos.Extensions" priority="0" />
+      <Item value="Graphs" priority="0" />
+      <Item value="String" priority="0" />
+      <Item value="StringBuilder" priority="1" />
+      <Item value="C_ToString" priority="1" />
+      <Item value="Comparison&lt;char&gt;" priority="1" />
+      <Item value="IsDigit" priority="1" />
+      <Item value="CrossAppDomainDelegate" priority="0" />
+      <Item value="Console" priority="0" />
+      <Item value="ReadLine" priority="0" />
+      <Item value="stream" priority="3" />
+      <Item value="CreateObjRef" priority="0" />
+      <Item value="is" priority="1" />
+      <Item value="type" priority="4" />
+      <Item value="GetInterface" priority="0" />
+      <Item value="secuence" priority="0" />
+      <Item value="ArgumentException" priority="0" />
+      <Item value="end" priority="5" />
+      <Item value="start" priority="5" />
+      <Item value="InvalidOperationException" priority="0" />
+      <Item value="Activator" priority="0" />
+      <Item value="CreateInstance" priority="0" />
+      <Item value="parameters" priority="0" />
+      <Item value="long" priority="1" />
+      <Item value="value" priority="5" />
+      <Item value="BinarySearch" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

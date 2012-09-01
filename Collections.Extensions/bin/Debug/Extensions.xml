@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Extensions</name>
+    </assembly>
+    <members>
+        <member name="F:Nikos.Extensions.Streams.Files.MB_SIZE">
+            <summary>
+             The numbers of bytes into a Mega Byte
+            </summary>
+        </member>
+        <member name="F:Nikos.Extensions.Streams.Files.KB_SIZE">
+            <summary>
+            The numbers of bytes into a Kb
+            </summary>
+        </member>
+        <member name="M:Nikos.Extensions.Streams.Files.CompareHash(System.IO.Stream,System.IO.Stream)">
+            <summary>
+             Compare two Stream based in MD5 hash algorimth
+            </summary>
+            <param name="stream"></param>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Extensions.Streams.Files.BeginExecute(System.IO.Stream,System.Collections.Generic.IEnumerable{System.Action{System.Byte[],System.Int32}},System.Int32,System.AsyncCallback)">
+            <summary>
+            Execute each function on each segment of the stream
+            </summary>
+            <param name="stream"></param>
+            <param name="actions">Actions to applies</param>
+            <param name="bufferLength">Size of buffer to get a segment of stream</param>
+            <param name="callback">Call back funtion</param>
+            <returns>Handler to async operation</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Streams.Files.EndExecute(System.IO.Stream,System.IAsyncResult)">
+            <summary>
+             Stop execution of the process on stream
+            </summary>
+            <param name="stream"></param>
+            <param name="result"></param>
+        </member>
+        <member name="M:Nikos.Extensions.Streams.Files.CopyFrom(System.IO.Stream,System.IO.Stream,System.Int64,Nikos.Extensions.Streams.ProgressReportEventHandler)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="source"></param>
+            <param name="count">Cantidad en bytes</param>
+            <param name="report"></param>
+        </member>
+        <member name="M:Nikos.Extensions.Streams.Files.CompressTo(System.IO.Stream,System.IO.Stream,System.Int64,System.Int64,Nikos.Extensions.Streams.ProgressReportEventHandler)">
+            <summary>
+            Compress stream using defleate algorithm
+            </summary>
+            <param name="stream">Stream to compress</param>
+            <param name="output">Output streamm</param>
+            <param name="count">Count of bytes to compress</param>
+            <param name="offset">Offset on the output stream</param>
+            <param name="report">Progress report handler</param>
+        </member>
+        <member name="M:Nikos.Extensions.Streams.Files.DeCompressTo(System.IO.Stream,System.IO.Stream,System.Int64,System.Int64,Nikos.Extensions.Streams.ProgressReportEventHandler)">
+            <summary>
+            Decompress stream using defleate algorithm
+            </summary>
+            <param name="stream">Stream to decompress</param>
+            <param name="output">Output stream</param>
+            <param name="count">Count of bytes to decompress</param>
+            <param name="offset">Offset on the output stream</param>
+            <param name="report">Progress report handler</param>
+        </member>
+        <member name="M:Nikos.Extensions.Streams.Files.CheckSum(System.IO.Stream,Nikos.Extensions.Streams.CheckSumType)">
+            <summary>
+             Checksum algorimth based on Adler32 and CRC32 algorimths
+            </summary>
+            <param name="stream">Stream to apply the algorimth</param>
+            <param name="checkSumeType">Checksum type, Adler32 or CRC32</param>
+            <returns>Checksum numeber</returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.ToEnumerable``1(System.Collections.Generic.IEnumerator{``0})">
+            <summary>
+            Convert a IEnumerator to IEnumerable
+            </summary>
+            <typeparam name="T">Generic type</typeparam>
+            <param name="source">Enumerator</param>
+            <returns>Enumerable</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.ToEnumerable(System.Collections.IEnumerator)">
+            <summary>
+            Convert a IEnumerator to IEnumerable
+            </summary>
+            <param name="source">Enumerator</param>
+            <returns>Enumerable</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.AddRange``1(System.Collections.Generic.Stack{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Add a list of elements into Stack
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dest"></param>
+            <param name="source"></param>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.AddRange``1(System.Collections.Generic.Queue{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Add a list of elements into Queue
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dest"></param>
+            <param name="source"></param>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.QuickSort``1(System.Collections.Generic.IEnumerable{``0},System.Comparison{``0})">
+            <summary>
+            Ordena utilizando el metod quick sort
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source">Elementos a ordenar</param>
+            <param name="comparison">Compara dos elementos de la coleccion</param>
+            <returns>Los elementos ordenados</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.QuickSort``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+             Ordena utilizando el metod quick sort basandose en que los elementos son IComparables
+            </summary>
+            <typeparam name="T">Elementos a ordenar</typeparam>
+            <param name="source">Los elementos ordenados</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.QuickSort``1(System.Collections.Generic.IEnumerable{``0},System.Comparison{``0},System.Int32,System.Int32)">
+            <summary>
+            Ordena utilizando el metodo quick sort
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source">Elementos a ordenar</param>
+            <param name="comparison">Compara dos elementos de la coleccion</param>
+            <param name="Inicio">Inicio de donde se va a ordenar</param>
+            <param name="Final">Final de donde se va a ordenar</param>
+            <returns>Los elementos ordenados</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.MergeSort``1(System.Collections.Generic.IEnumerable{``0},System.Comparison{``0})">
+            <summary>
+            Sort the elemets of a IEnumerable using the MergeSort Method; this one is stable
+            </summary>
+            <typeparam name="T">The Generic parameter</typeparam>
+            <param name="source">Elemetents to sort</param>
+            <param name="comparison">Function to compare the items of source</param>
+            <returns>A sorted IEnumerable</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.MergeSort``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Sort the elemets of a IEnumerable using the MergeSort Method; this one is stable
+            </summary>
+            <typeparam name="T">The Generic parameter</typeparam>
+            <param name="source">Elemetents to sort</param>
+            <returns>A sorted IEnumerable</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.MergeSort``1(System.Collections.Generic.IEnumerable{``0},System.Comparison{``0},System.Int32,System.Int32)">
+            <summary>
+            Sort the elemets of a IEnumerable using the MergeSort Method; this one is stable
+            </summary>
+            <typeparam name="T">The Generic paramete</typeparam>
+            <param name="source">Elemetents to sort</param>
+            <param name="comparison">Function to compare the items of source</param>
+            <param name="Inicio">The begin index</param>
+            <param name="Final">The end index</param>
+            <returns> sorted IEnumerable</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.Remove``1(System.Collections.Generic.ICollection{``0},``0[])">
+            <summary>
+            Remove a serie of items from a ICollection
+            </summary>
+            <typeparam name="T">The generic parameter</typeparam>
+            <param name="source">A ICollection</param>
+            <param name="items">Items to remove</param>
+            <returns>A array of boolean values that contain true if the item was remove; false in other case</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.Kmp``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Comparison{``0})">
+            <summary>
+            Apply de algoritm KMP to search into the patron a specific secuence
+            </summary>
+            <typeparam name="T">Generic parameters</typeparam>
+            <param name="source">The Patron</param>
+            <param name="secuence">Secuence to search</param>
+            <param name="comparison">A delegate to compare the items of T types</param>
+            <returns>Return the index where secuence was found</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.Split``1(System.Collections.Generic.IEnumerable{``0},System.Int32[])">
+            <summary>
+             Split a IEnumerable by diferente positions
+            </summary>
+            <param name="source">A IEnumerable for split</param>
+            <param name="indexs">Indexs for split a source</param>
+            <typeparam name="T">The generic parameter</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.C_ToString(System.Collections.Generic.IEnumerable{System.Char})">
+            <summary>
+            Convert a IEnumerable of char to String than represent
+            </summary>
+            <param name="source">IEnumerable of char</param>
+            <returns>A String</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Collections.Collections.SubSec``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)">
+            <summary>
+            Get the subsecuence whith specific indexs
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="start"></param>
+            <param name="end"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Extensions.Types.Types.BaseTypes``1(``0)">
+            <summary>
+            Get the base class type of this class and implemented interfaces
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nikos.Extensions.Types.Types.CompareTo``1(``0,System.IComparable,System.Func{``0,System.IComparable})">
+            <summary>
+             Compare the item with a IComparable by func result
+            </summary>
+            <param name="source">Item</param>
+            <param name="obj">A IComparable</param>
+            <param name="func">Function to convert type of T to ICompareble</param>
+            <typeparam name="T">The type to compare with the ICompareble</typeparam>
+            <returns>The value of comparison</returns>
+        </member>
+        <member name="M:Nikos.Extensions.Types.Types.CompareTo``2(``0,``1,System.Func{``0,System.IComparable},System.Func{``1,System.IComparable})">
+            <summary>
+             Compare two diferent objects by some inside property
+            </summary>
+            <param name="source">First object to compare</param>
+            <param name="obj">Second object to compare</param>
+            <param name="func1">Function to convert type of T to ICompareble</param>
+            <param name="func2">Function to convert type of K to ICompareble</param>
+            <typeparam name="T">The type to compare with the ICompareble</typeparam>
+            <typeparam name="K">The type to compare with the ICompareble</typeparam>
+            <returns>The value of comparison</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Collections.Extensions">
+</Property><Property Name="Solution File" Value="D:\Projects\Collections.Extensions\Collections.Extensions.sln"> 
+</Property><Property Name="User Options File" Value="D:\Projects\Collections.Extensions\Collections.Extensions.suo">
+</Property><Property Name="Date" Value="Saturday, May 08, 2010">
+</Property><Property Name="Time" Value="23:04 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Collections.Extensions.sln" Description="File successfully backed up as D:\Projects\Collections.Extensions\Backup\Collections.Extensions.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Collections.Extensions.suo" Description="File successfully backed up as D:\Projects\Collections.Extensions\Backup\Collections.Extensions.suo">
+</Event><Event ErrorLevel="0" Project="Collections.Extensions" Source="Collections.Extensions\Collections.Extensions.csproj" Description="Project file successfully backed up as D:\Projects\Collections.Extensions\Backup\Collections.Extensions\Collections.Extensions.csproj">
+</Event><Event ErrorLevel="0" Project="Collections.Extensions" Source="Collections.Extensions\Extensions.cs" Description="File successfully backed up as D:\Projects\Collections.Extensions\Backup\Collections.Extensions\Extensions.cs">
+</Event><Event ErrorLevel="0" Project="Collections.Extensions" Source="Collections.Extensions\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Projects\Collections.Extensions\Backup\Collections.Extensions\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Collections.Extensions" Source="Collections.Extensions\Collections.Extensions.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Collections.Extensions" Source="Collections.Extensions\Collections.Extensions.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConsoleApplication1" Source="ConsoleApplication1\ConsoleApplication1.csproj" Description="Project file successfully backed up as D:\Projects\Collections.Extensions\Backup\ConsoleApplication1\ConsoleApplication1.csproj">
+</Event><Event ErrorLevel="0" Project="ConsoleApplication1" Source="ConsoleApplication1\Program.cs" Description="File successfully backed up as D:\Projects\Collections.Extensions\Backup\ConsoleApplication1\Program.cs">
+</Event><Event ErrorLevel="0" Project="ConsoleApplication1" Source="ConsoleApplication1\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Projects\Collections.Extensions\Backup\ConsoleApplication1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ConsoleApplication1" Source="ConsoleApplication1\ConsoleApplication1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ConsoleApplication1" Source="ConsoleApplication1\ConsoleApplication1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Collections.Extensions.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Collections.Extensions.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Collections.Extensions" Source="Collections.Extensions\Collections.Extensions.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ConsoleApplication1" Source="ConsoleApplication1\ConsoleApplication1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

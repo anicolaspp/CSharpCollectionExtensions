@@ -1,0 +1,458 @@
+<Configuration>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="7590" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="21351" fromTop="3" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="21528" fromTop="7" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="23376" fromTop="13" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="24454" fromTop="16" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="21871" fromTop="16" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="24043" fromTop="19" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="23431" fromTop="7" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="24439" fromTop="32" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="23972" fromTop="21" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="23953" fromTop="19" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="22925" fromTop="23" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="24763" fromTop="10" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="23885" fromTop="19" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="22925" fromTop="16" />
+      <File id="523666B1-A9AC-4733-864B-FF62B76EE5F9/f:Extensions.cs" caret="25084" fromTop="24" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="static" priority="57" />
+      <Item value="public" priority="52" />
+      <Item value="IEnumerable" priority="49" />
+      <Item value="TimeZoneInfo" priority="0" />
+      <Item value="this" priority="45" />
+      <Item value="IEnumerator" priority="4" />
+      <Item value="T" priority="88" />
+      <Item value="while" priority="16" />
+      <Item value="source" priority="66" />
+      <Item value="MoveNext" priority="1" />
+      <Item value="yield return" priority="5" />
+      <Item value="Current" priority="1" />
+      <Item value="void" priority="16" />
+      <Item value="Stack" priority="0" />
+      <Item value="foreach" priority="9" />
+      <Item value="dest" priority="2" />
+      <Item value="Pop" priority="0" />
+      <Item value="Push" priority="0" />
+      <Item value="item" priority="4" />
+      <Item value="Queue" priority="2" />
+      <Item value="Enqueue" priority="2" />
+      <Item value="Type" priority="11" />
+      <Item value="typeof" priority="2" />
+      <Item value="return" priority="58" />
+      <Item value="Nullable" priority="0" />
+      <Item value="null" priority="19" />
+      <Item value="types" priority="7" />
+      <Item value="new" priority="84" />
+      <Item value="Queue&lt;Type&gt;" priority="0" />
+      <Item value="GetType" priority="1" />
+      <Item value="Count" priority="7" />
+      <Item value="var" priority="37" />
+      <Item value="Dequeue" priority="0" />
+      <Item value="current" priority="3" />
+      <Item value="BaseType" priority="0" />
+      <Item value="AddRange" priority="0" />
+      <Item value="GetInterfaces" priority="0" />
+      <Item value="int" priority="64" />
+      <Item value="Random" priority="1" />
+      <Item value="GetHashCode" priority="5" />
+      <Item value="a" priority="8" />
+      <Item value="for" priority="17" />
+      <Item value="pasos" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="m" priority="5" />
+      <Item value="Next" priority="1" />
+      <Item value="if" priority="47" />
+      <Item value="Direccion" priority="4" />
+      <Item value="r" priority="1" />
+      <Item value="Arriba" priority="2" />
+      <Item value="Derecha" priority="0" />
+      <Item value="switch" priority="2" />
+      <Item value="break" priority="2" />
+      <Item value="direccion" priority="0" />
+      <Item value="List" priority="13" />
+      <Item value="GetEnumerator" priority="1" />
+      <Item value="VARIABLE" priority="0" />
+      <Item value="ToIEnumerable" priority="1" />
+      <Item value="ToList" priority="0" />
+      <Item value="ToArray" priority="30" />
+      <Item value="Length" priority="31" />
+      <Item value="Func" priority="5" />
+      <Item value="func" priority="15" />
+      <Item value="QuickSort" priority="9" />
+      <Item value="data" priority="58" />
+      <Item value="inicio" priority="1" />
+      <Item value="final" priority="3" />
+      <Item value="i" priority="42" />
+      <Item value="do" priority="0" />
+      <Item value="med" priority="8" />
+      <Item value="temp" priority="0" />
+      <Item value="_QuickSort" priority="3" />
+      <Item value="hasta" priority="9" />
+      <Item value="desde" priority="8" />
+      <Item value="try" priority="3" />
+      <Item value="NullReferenceException" priority="2" />
+      <Item value="IComparer" priority="1" />
+      <Item value="comparer" priority="13" />
+      <Item value="from" priority="0" />
+      <Item value="where" priority="4" />
+      <Item value="Where" priority="1" />
+      <Item value="Compare" priority="2" />
+      <Item value="out" priority="2" />
+      <Item value="Comparison" priority="11" />
+      <Item value="bool" priority="11" />
+      <Item value="false" priority="5" />
+      <Item value="finally" priority="0" />
+      <Item value="fl" priority="0" />
+      <Item value="true" priority="6" />
+      <Item value="comparison" priority="30" />
+      <Item value="Image" priority="1" />
+      <Item value="image" priority="14" />
+      <Item value="Bitmap" priority="5" />
+      <Item value="bmp" priority="11" />
+      <Item value="LockBits" priority="0" />
+      <Item value="Rectangle" priority="1" />
+      <Item value="Width" priority="8" />
+      <Item value="Height" priority="8" />
+      <Item value="ImageLockMode" priority="0" />
+      <Item value="ReadWrite" priority="0" />
+      <Item value="PixelFormat" priority="0" />
+      <Item value="Format32bppArgb" priority="0" />
+      <Item value="pData" priority="1" />
+      <Item value="byte" priority="28" />
+      <Item value="Copy" priority="0" />
+      <Item value="Scan0" priority="0" />
+      <Item value="const" priority="1" />
+      <Item value="Graphics" priority="2" />
+      <Item value="FromImage" priority="0" />
+      <Item value="ancho" priority="1" />
+      <Item value="alto" priority="1" />
+      <Item value="object" priority="14" />
+      <Item value="Point" priority="2" />
+      <Item value="graphics" priority="2" />
+      <Item value="DrawImageUnscaled" priority="0" />
+      <Item value="GraphicsUnit" priority="0" />
+      <Item value="Pixel" priority="0" />
+      <Item value="internal" priority="0" />
+      <Item value="CustomImage" priority="0" />
+      <Item value="Dispose" priority="0" />
+      <Item value="Palette" priority="0" />
+      <Item value="Color" priority="1" />
+      <Item value="Empty" priority="0" />
+      <Item value="Clear" priority="2" />
+      <Item value="backColor" priority="0" />
+      <Item value="namespace" priority="4" />
+      <Item value="Nikos" priority="1" />
+      <Item value="class" priority="4" />
+      <Item value="using" priority="11" />
+      <Item value="Reset" priority="1" />
+      <Item value="PrimaryInteropAssemblyAttribute" priority="0" />
+      <Item value="private" priority="6" />
+      <Item value="TryReset" priority="2" />
+      <Item value="Enumerable" priority="0" />
+      <Item value="STATSTG" priority="0" />
+      <Item value="GroupBy" priority="0" />
+      <Item value="First" priority="0" />
+      <Item value="Intersect" priority="1" />
+      <Item value="IEqualityComparer" priority="0" />
+      <Item value="SelectMany" priority="0" />
+      <Item value="ToDictionary" priority="2" />
+      <Item value="KeyNotFoundException" priority="0" />
+      <Item value="IDictionary" priority="1" />
+      <Item value="dictionary" priority="2" />
+      <Item value="ToString" priority="8" />
+      <Item value="string" priority="15" />
+      <Item value="ICollection" priority="1" />
+      <Item value="params" priority="3" />
+      <Item value="items" priority="5" />
+      <Item value="result" priority="37" />
+      <Item value="Remove" priority="5" />
+      <Item value="Inicio" priority="1" />
+      <Item value="Final" priority="1" />
+      <Item value="text" priority="0" />
+      <Item value="fragment" priority="1" />
+      <Item value="fuente" priority="0" />
+      <Item value="KMP" priority="3" />
+      <Item value="frag" priority="3" />
+      <Item value="_KMP" priority="0" />
+      <Item value="IComparable" priority="13" />
+      <Item value="ReturnValue" priority="3" />
+      <Item value="CompareTo" priority="12" />
+      <Item value="K" priority="3" />
+      <Item value="obj" priority="3" />
+      <Item value="t" priority="6" />
+      <Item value="func_1" priority="0" />
+      <Item value="func_2" priority="0" />
+      <Item value="IList" priority="0" />
+      <Item value="MergeSort" priority="0" />
+      <Item value="throw" priority="6" />
+      <Item value="ArgumentNullException" priority="2" />
+      <Item value="_MergeSort" priority="4" />
+      <Item value="else" priority="6" />
+      <Item value="Math" priority="0" />
+      <Item value="Abs" priority="0" />
+      <Item value="List&lt;T&gt;" priority="3" />
+      <Item value="index" priority="1" />
+      <Item value="Add" priority="8" />
+      <Item value="List&lt;T[]&gt;" priority="0" />
+      <Item value="Split" priority="1" />
+      <Item value="list" priority="2" />
+      <Item value="y" priority="0" />
+      <Item value="indexs" priority="3" />
+      <Item value="PlatformID" priority="0" />
+      <Item value="RemoveAt" priority="0" />
+      <Item value="nguid" priority="0" />
+      <Item value="n" priority="0" />
+      <Item value="q" priority="9" />
+      <Item value="pi" priority="5" />
+      <Item value="k" priority="7" />
+      <Item value="Nikos.Extensions.Collections" priority="0" />
+      <Item value="patron" priority="8" />
+      <Item value="txt" priority="1" />
+      <Item value="cw" priority="4" />
+      <Item value="Action" priority="9" />
+      <Item value="action" priority="8" />
+      <Item value="System" priority="4" />
+      <Item value="Threading" priority="0" />
+      <Item value="Parallel" priority="4" />
+      <Item value="ForEach" priority="0" />
+      <Item value="Invoke" priority="1" />
+      <Item value="delegate" priority="5" />
+      <Item value="ParallelEnumerable" priority="0" />
+      <Item value="Task" priority="1" />
+      <Item value="Action&lt;object&gt;" priority="2" />
+      <Item value="Create" priority="2" />
+      <Item value="TaskCreationOptions" priority="1" />
+      <Item value="TaskManager" priority="2" />
+      <Item value="manager" priority="3" />
+      <Item value="None" priority="0" />
+      <Item value="ParalleleForEach" priority="0" />
+      <Item value="char" priority="7" />
+      <Item value="Program" priority="0" />
+      <Item value="A" priority="1" />
+      <Item value="Nikos.Extensions" priority="3" />
+      <Item value="Graphs" priority="0" />
+      <Item value="String" priority="0" />
+      <Item value="StringBuilder" priority="1" />
+      <Item value="C_ToString" priority="1" />
+      <Item value="Comparison&lt;char&gt;" priority="1" />
+      <Item value="IsDigit" priority="1" />
+      <Item value="CrossAppDomainDelegate" priority="0" />
+      <Item value="Console" priority="0" />
+      <Item value="ReadLine" priority="0" />
+      <Item value="stream" priority="80" />
+      <Item value="CreateObjRef" priority="0" />
+      <Item value="is" priority="1" />
+      <Item value="type" priority="4" />
+      <Item value="GetInterface" priority="0" />
+      <Item value="secuence" priority="1" />
+      <Item value="ArgumentException" priority="0" />
+      <Item value="end" priority="5" />
+      <Item value="start" priority="5" />
+      <Item value="InvalidOperationException" priority="0" />
+      <Item value="Activator" priority="0" />
+      <Item value="CreateInstance" priority="0" />
+      <Item value="parameters" priority="0" />
+      <Item value="long" priority="8" />
+      <Item value="value" priority="5" />
+      <Item value="BinarySearch" priority="1" />
+      <Item value="IComparable`0" priority="1" />
+      <Item value="QuickSort`1" priority="0" />
+      <Item value="Kmp`1" priority="0" />
+      <Item value="Stream`0" priority="18" />
+      <Item value="Security" priority="0" />
+      <Item value="Cryptography" priority="0" />
+      <Item value="md5Cng" priority="1" />
+      <Item value="MD5Cng" priority="1" />
+      <Item value="MD5Cng`0" priority="1" />
+      <Item value="cng" priority="3" />
+      <Item value="other" priority="6" />
+      <Item value="data_1" priority="2" />
+      <Item value="data_2" priority="1" />
+      <Item value="Extensions" priority="0" />
+      <Item value="Collections" priority="0" />
+      <Item value="Extensions`0" priority="0" />
+      <Item value="buff_1" priority="0" />
+      <Item value="buff_2" priority="0" />
+      <Item value="x" priority="11" />
+      <Item value="length" priority="2" />
+      <Item value="thread" priority="3" />
+      <Item value="Thread" priority="0" />
+      <Item value="Thread`0" priority="1" />
+      <Item value="Delegate`0" priority="1" />
+      <Item value="@delegate" priority="0" />
+      <Item value="Execute" priority="4" />
+      <Item value="execute" priority="9" />
+      <Item value="Execute&lt;byte[]&gt;" priority="0" />
+      <Item value="bufferLength" priority="4" />
+      <Item value="buff" priority="3" />
+      <Item value="ECKeyXmlFormat`0" priority="0" />
+      <Item value="IAsyncResult`0" priority="3" />
+      <Item value="state" priority="1" />
+      <Item value="Action`0" priority="0" />
+      <Item value="AsyncCallback`0" priority="2" />
+      <Item value="CallBack`0" priority="0" />
+      <Item value="ar" priority="2" />
+      <Item value="del" priority="0" />
+      <Item value="callback" priority="5" />
+      <Item value="WaitHandle`0" priority="0" />
+      <Item value="catch" priority="1" />
+      <Item value="IOException`0" priority="1" />
+      <Item value="ioException" priority="3" />
+      <Item value="DirectoryInfo`0" priority="1" />
+      <Item value="directoryInfo" priority="1" />
+      <Item value="actions" priority="4" />
+      <Item value="Execute_2" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="Ext_Execute" priority="0" />
+      <Item value="BeginExecute`0" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="ProgressReportEventHandler`0" priority="4" />
+      <Item value="report" priority="5" />
+      <Item value="TReport`0" priority="0" />
+      <Item value="sender" priority="0" />
+      <Item value="args" priority="0" />
+      <Item value="bufferSize" priority="5" />
+      <Item value="readers" priority="8" />
+      <Item value="buffer" priority="4" />
+      <Item value="count" priority="12" />
+      <Item value="InvokeProgressReport`0" priority="1" />
+      <Item value="TReport" priority="0" />
+      <Item value="Copied" priority="2" />
+      <Item value="NameFile" priority="0" />
+      <Item value="CurrentFile" priority="0" />
+      <Item value="TFileReport" priority="2" />
+      <Item value="TFileReport`0" priority="1" />
+      <Item value="llevo" priority="6" />
+      <Item value="aux" priority="6" />
+      <Item value="counts" priority="0" />
+      <Item value="MemoryStream`0" priority="0" />
+      <Item value="output" priority="30" />
+      <Item value="IO" priority="2" />
+      <Item value="Compression" priority="2" />
+      <Item value="GZipStream`0" priority="2" />
+      <Item value="gZipStream" priority="7" />
+      <Item value="GZipStream" priority="1" />
+      <Item value="CompressionMode`0" priority="1" />
+      <Item value="offset" priority="1" />
+      <Item value="Decompress" priority="2" />
+      <Item value="DeflateStream`0" priority="3" />
+      <Item value="deflateStream" priority="18" />
+      <Item value="DeflateStream" priority="4" />
+      <Item value="Streams" priority="2" />
+      <Item value="File`0" priority="0" />
+      <Item value="FileStream`0" priority="1" />
+      <Item value="FileStream" priority="4" />
+      <Item value="Open" priority="2" />
+      <Item value="Compress" priority="1" />
+      <Item value="entrada" priority="5" />
+      <Item value="salida" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="QuickSort`1" priority="0" />
+      <Item value="MergeSort`1" priority="0" />
+      <Item value="Kmp`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="CompareTo`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.MD5Cng">
+      <Item value="ComputeHash`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Length" priority="4" />
+      <Item value="Position" priority="12" />
+      <Item value="CanRead" priority="3" />
+      <Item value="Read`0" priority="9" />
+      <Item value="ReadByte`0" priority="1" />
+      <Item value="CompareHash`0" priority="0" />
+      <Item value="BeginExecute`0" priority="2" />
+      <Item value="BeginRead`0" priority="0" />
+      <Item value="Write`0" priority="3" />
+      <Item value="CopyFrom`0" priority="2" />
+      <Item value="WriteTimeout" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Extensions.Streams.Execute`1">
+      <Item value="BeginInvoke`0" priority="2" />
+      <Item value="EndInvoke`0" priority="3" />
+      <Item value="Method" priority="0" />
+      <Item value="Target" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IAsyncResult">
+      <Item value="AsyncState" priority="7" />
+      <Item value="AsyncWaitHandle" priority="3" />
+      <Item value="IsCompleted" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Nikos.Extensions.Streams.Ext_Execute`1">
+      <Item value="BeginInvoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Delegate">
+      <Item value="Method" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="1" />
+      <Item value="ToArray`0" priority="1" />
+      <Item value="Count" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Compression.CompressionMode">
+      <Item value="Compress" priority="2" />
+      <Item value="Decompress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Compression.GZipStream">
+      <Item value="CopyFrom`0" priority="1" />
+      <Item value="Dispose`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="CompressTo`0" priority="5" />
+      <Item value="Length" priority="8" />
+      <Item value="Close`0" priority="3" />
+      <Item value="DeCompressTo`0" priority="4" />
+      <Item value="Read`0" priority="0" />
+      <Item value="Dispose`0" priority="2" />
+      <Item value="CopyTo`0" priority="5" />
+      <Item value="CompareHash`0" priority="0" />
+      <Item value="Write`0" priority="0" />
+      <Item value="Position" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Compression.DeflateStream">
+      <Item value="Close`0" priority="2" />
+      <Item value="Write`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+      <Item value="CopyTo`0" priority="2" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileMode">
+      <Item value="Open" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

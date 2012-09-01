@@ -1,0 +1,6 @@
+D:\Projects\Collections.Extensions\Collections.Extensions\bin\Debug\Extensions.xml
+D:\Projects\Collections.Extensions\Collections.Extensions\bin\Debug\Extensions.dll
+D:\Projects\Collections.Extensions\Collections.Extensions\bin\Debug\Extensions.pdb
+D:\Projects\Collections.Extensions\Collections.Extensions\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Collections.Extensions\Collections.Extensions\obj\Debug\Extensions.dll
+D:\Projects\Collections.Extensions\Collections.Extensions\obj\Debug\Extensions.pdb
