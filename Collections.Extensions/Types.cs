@@ -57,5 +57,46 @@ namespace Nikos.Extensions.Types
         {
             return func1(source).CompareTo(func2(obj));
         }
+
+		public static string ToXml<T> (this T obj)
+		{
+			string result;
+			System.Xml.Serialization.XmlSerializer serializer = new System.Xml.Serialization.XmlSerializer(typeof(T));
+			using (System.IO.MemoryStream ms = new System.IO.MemoryStream()) 
+			{
+				serializer.Serialize(ms, obj);
+				System.IO.StreamReader reader = new System.IO.StreamReader(ms);
+				result = reader.ReadToEnd ();
+				reader.Dispose();
+			}
+
+			return result;
+		}
+
+		public static T GetObjFromXml<T> (this string xmlRepresentation)
+		{
+			System.Xml.Serialization.XmlSerializer serializer = new System.Xml.Serialization.XmlSerializer (typeof(T));
+			using (System.IO.MemoryStream ms = new System.IO.MemoryStream()) 
+			{
+
+			}
+
+			return default(T);
+		}
+
+		public static T GetObjFromXmlFile<T> (this System.IO.Stream stream)
+		{
+			System.Xml.Serialization.XmlSerializer serializer = new System.Xml.Serialization.XmlSerializer(typeof(T));
+			return (T)serializer.Deserialize(stream);
+		}
+
+		public static void SaveXmlRepresentation<T>(this T obj, string filePath)
+		{
+			System.Xml.Serialization.XmlSerializer serializer = new System.Xml.Serialization.XmlSerializer(typeof(T));
+			using (System.IO.FileStream stream = new System.IO.FileStream(filePath, System.IO.FileMode.Create)) 
+			{
+				serializer.Serialize(stream, obj);
+			}
+		}
     }
 }
