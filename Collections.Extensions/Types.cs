@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Nikos.Extensions.Collections;
+using System.IO;
 
 namespace Nikos.Extensions.Types
 {
@@ -73,21 +74,29 @@ namespace Nikos.Extensions.Types
 			return result;
 		}
 
+		public static string ToJSon<T> (this T obj)
+		{
+			string result = string.Empty;
+
+
+			return result;
+		}
+
 		public static T GetObjFromXml<T> (this string xmlRepresentation)
 		{
 			System.Xml.Serialization.XmlSerializer serializer = new System.Xml.Serialization.XmlSerializer (typeof(T));
 			using (System.IO.MemoryStream ms = new System.IO.MemoryStream()) 
 			{
-
+				
 			}
 
 			return default(T);
 		}
 
-		public static T GetObjFromXmlFile<T> (this System.IO.Stream stream)
+		public static T GetObjFromXmlFile<T> (this System.IO.Stream stream) where T : class
 		{
 			System.Xml.Serialization.XmlSerializer serializer = new System.Xml.Serialization.XmlSerializer(typeof(T));
-			return (T)serializer.Deserialize(stream);
+			return serializer.Deserialize(stream) as T;
 		}
 
 		public static void SaveXmlRepresentation<T>(this T obj, string filePath)
